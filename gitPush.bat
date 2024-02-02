@@ -12,4 +12,6 @@ git commit -m "Code Updated"
 
 git push
 
+@echo off
+
 exit
