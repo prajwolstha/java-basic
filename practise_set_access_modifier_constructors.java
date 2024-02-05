@@ -6,6 +6,7 @@ class cylinder{
 	private int height;
 	
 	
+
 	
 	public cylinder(int radius, int height) {
 		this.radius = radius;
@@ -36,15 +37,25 @@ class cylinder{
 	
 }
 
+class Rectangle() {
+	
+	
+}
+
 
 
 
 public class practise_set_access_modifier_constructors {
 public static void main(String[] args) {
+	
+	rectangle r=new rectangle();
+	
+	
+	
 	//using constructor
-	cylinder math=new cylinder(3,10);
-	System.out.println(math.surfaceArea());
-	System.out.println(math.volume());
+//	cylinder math=new cylinder(3,10);
+//	System.out.println(math.surfaceArea());
+//	System.out.println(math.volume());
 	
 	
 	//using getter & setter
